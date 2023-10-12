@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/assets")
+@CrossOrigin
 public class AssetsController {
     @Autowired
     private AssetsRepository assetsRepository;
